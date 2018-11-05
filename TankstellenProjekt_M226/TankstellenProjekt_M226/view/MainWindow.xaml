@@ -1,0 +1,16 @@
+﻿<Window x:Class="TankstellenProjekt_M226.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TankstellenProjekt_M226"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="303" VerticalAlignment="Top" Width="546" Margin="238,10,0,0" Source="../Images/BenzinAuswahl.jpg"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="18" Margin="541,333,0,0" VerticalAlignment="Top" Width="67"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="18" Margin="290,330,0,0" VerticalAlignment="Top" Width="67"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="18" Margin="428,330,0,0" VerticalAlignment="Top" Width="67"/>
+        <Button Content="Diesel" HorizontalAlignment="Left" Height="18" Margin="655,330,0,0" VerticalAlignment="Top" Width="67"/>
+    </Grid>
+</Window>
