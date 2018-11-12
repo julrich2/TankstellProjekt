@@ -13,7 +13,6 @@ namespace _00_trainingApp.Controller
         {
             targetwindow.Show();
             startwindow.Close();
-
         }
     }
 }
