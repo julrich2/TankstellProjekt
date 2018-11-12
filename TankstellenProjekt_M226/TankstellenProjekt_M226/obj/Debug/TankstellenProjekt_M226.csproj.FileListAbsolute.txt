@@ -12,3 +12,4 @@ C:\Users\Jeremy Ulrich\Documents\GitHub\TankstellProjekt\TankstellenProjekt_M226
 C:\Users\Jeremy Ulrich\Documents\GitHub\TankstellProjekt\TankstellenProjekt_M226\TankstellenProjekt_M226\obj\Debug\TankstellenProjekt_M226.csproj.CoreCompileInputs.cache
 C:\Users\Jeremy Ulrich\Documents\GitHub\TankstellProjekt\TankstellenProjekt_M226\TankstellenProjekt_M226\obj\Debug\TankstellenProjekt_M226.exe
 C:\Users\Jeremy Ulrich\Documents\GitHub\TankstellProjekt\TankstellenProjekt_M226\TankstellenProjekt_M226\obj\Debug\TankstellenProjekt_M226.pdb
+C:\Users\Jeremy Ulrich\Documents\GitHub\TankstellProjekt\TankstellenProjekt_M226\TankstellenProjekt_M226\obj\Debug\TankstellenProjekt_M226.csprojAssemblyReference.cache
