@@ -8,12 +8,12 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Image HorizontalAlignment="Left" Height="303" VerticalAlignment="Top" Width="546" Margin="223,34,0,0" Source="../Images/BenzinAuswahl.jpg"/>
-        <Button Content="Superplus" HorizontalAlignment="Left" Height="18" Margin="292,354,0,0" VerticalAlignment="Top" Width="67"/>
-        <Button Content="Super" HorizontalAlignment="Left" Height="18" Margin="417,354,0,0" VerticalAlignment="Top" Width="67"/>
-        <Button Content="Benzin" HorizontalAlignment="Left" Height="18" Margin="527,354,0,0" VerticalAlignment="Top" Width="67"/>
-        <Button Content="Diesel" HorizontalAlignment="Left" Height="18" Margin="640,354,0,0" VerticalAlignment="Top" Width="67"/>
+        <Button Content="Superplus" HorizontalAlignment="Left" Height="18" Margin="292,354,0,0" VerticalAlignment="Top" Width="67" Click="BtnSPlus_Click"/>
+        <Button Content="Super" HorizontalAlignment="Left" Height="18" Margin="417,354,0,0" VerticalAlignment="Top" Width="67" Click="BtnpLus_Click"/>
+        <Button Content="Benzin" HorizontalAlignment="Left" Height="18" Margin="527,354,0,0" VerticalAlignment="Top" Width="67" Click="BtnBenzin_Click"/>
+        <Button Content="Diesel" HorizontalAlignment="Left" Height="18" Margin="640,354,0,0" VerticalAlignment="Top" Width="67" Click="BtnDiesel_Click"/>
         <StackPanel HorizontalAlignment="Left" Height="420" VerticalAlignment="Stretch" Width="140" Background="#FFCAC5C5">
-            <Label Content="Benzinkosten pro Liter" FontSize=""/>
+            <Label Content="Preis pro Liter" FontSize="16" Background="#FF9D9999"/>
             <Label Content="Superplus: 1.79 CHF"/>
             <Label Content="Super: 1.84 CHF"/>
             <Label Content="Benzin: 1.71 CHF"/>

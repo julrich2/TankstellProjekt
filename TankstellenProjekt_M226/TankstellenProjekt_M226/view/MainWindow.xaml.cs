@@ -24,5 +24,25 @@ namespace TankstellenProjekt_M226
         {
             InitializeComponent();
         }
+
+        private void BtnSPlus_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void BtnpLus_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnBenzin_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnDiesel_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
