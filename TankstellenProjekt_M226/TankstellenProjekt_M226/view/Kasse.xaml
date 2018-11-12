@@ -6,6 +6,11 @@
         mc:Ignorable="d"
         Title="Kasse" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="Label" HorizontalAlignment="Left" Height="29" Margin="171,80,0,0" VerticalAlignment="Top" Width="94"/>
+        <Label Content="Label" HorizontalAlignment="Left" Height="29" Margin="171,216,0,0" VerticalAlignment="Top" Width="94"/>
+        <Label Content="Label" HorizontalAlignment="Left" Height="29" Margin="171,182,0,0" VerticalAlignment="Top" Width="94"/>
+        <Label Content="Label" HorizontalAlignment="Left" Height="29" Margin="171,148,0,0" VerticalAlignment="Top" Width="94"/>
+        <Label Content="Label" HorizontalAlignment="Left" Height="29" Margin="171,114,0,0" VerticalAlignment="Top" Width="94"/>
+
     </Grid>
 </Window>
