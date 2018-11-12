@@ -14,6 +14,6 @@
             <Label Content="Benzin: 1.71 CHF"/>
             <Label Content="Diesel: 1.82 CHF"/>
         </StackPanel>
-        <Button Content="Säule 1" HorizontalAlignment="Left" Margin="202,28,0,0" VerticalAlignment="Top" Width="75" Height="62" Click="Button_Click"/>
+        <Button Content="Säule 1" HorizontalAlignment="Left" Margin="202,28,0,0" VerticalAlignment="Top" Width="75" Height="62" Click="Button_Click" Background="#206eea"/>
     </Grid>
 </Window>
