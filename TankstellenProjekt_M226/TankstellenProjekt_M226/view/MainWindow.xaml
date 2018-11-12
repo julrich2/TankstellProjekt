@@ -13,11 +13,11 @@
         <Button Content="Benzin" HorizontalAlignment="Left" Height="18" Margin="527,354,0,0" VerticalAlignment="Top" Width="67"/>
         <Button Content="Diesel" HorizontalAlignment="Left" Height="18" Margin="640,354,0,0" VerticalAlignment="Top" Width="67"/>
         <StackPanel HorizontalAlignment="Left" Height="420" VerticalAlignment="Stretch" Width="140" Background="#FFCAC5C5">
-            <Label Content="Benzinkosten pro Liter"/>
-            <Label Content="Superplus:"/>
-            <Label Content="Super:"/>
-            <Label Content="Benzin:"/>
-            <Label Content="Diesel:"/>
+            <Label Content="Benzinkosten pro Liter" FontSize=""/>
+            <Label Content="Superplus: 1.79 CHF"/>
+            <Label Content="Super: 1.84 CHF"/>
+            <Label Content="Benzin: 1.71 CHF"/>
+            <Label Content="Diesel: 1.82 CHF"/>
         </StackPanel>
     </Grid>
 </Window>
