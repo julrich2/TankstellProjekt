@@ -7,10 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Image HorizontalAlignment="Left" Height="303" VerticalAlignment="Top" Width="546" Margin="238,10,0,0" Source="../Images/BenzinAuswahl.jpg"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="18" Margin="541,333,0,0" VerticalAlignment="Top" Width="67"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="18" Margin="290,330,0,0" VerticalAlignment="Top" Width="67"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="18" Margin="428,330,0,0" VerticalAlignment="Top" Width="67"/>
-        <Button Content="Diesel" HorizontalAlignment="Left" Height="18" Margin="655,330,0,0" VerticalAlignment="Top" Width="67"/>
+        <Image HorizontalAlignment="Left" Height="303" VerticalAlignment="Top" Width="546" Margin="223,34,0,0" Source="../Images/BenzinAuswahl.jpg"/>
+        <Button Content="Superplus" HorizontalAlignment="Left" Height="18" Margin="292,354,0,0" VerticalAlignment="Top" Width="67"/>
+        <Button Content="Super" HorizontalAlignment="Left" Height="18" Margin="417,354,0,0" VerticalAlignment="Top" Width="67"/>
+        <Button Content="Benzin" HorizontalAlignment="Left" Height="18" Margin="527,354,0,0" VerticalAlignment="Top" Width="67"/>
+        <Button Content="Diesel" HorizontalAlignment="Left" Height="18" Margin="640,354,0,0" VerticalAlignment="Top" Width="67"/>
+        <StackPanel HorizontalAlignment="Left" Height="420" VerticalAlignment="Stretch" Width="140" Background="#FFCAC5C5">
+            <Label Content="Benzinkosten pro Liter"/>
+            <Label Content="Superplus:"/>
+            <Label Content="Super:"/>
+            <Label Content="Benzin:"/>
+            <Label Content="Diesel:"/>
+        </StackPanel>
     </Grid>
 </Window>
