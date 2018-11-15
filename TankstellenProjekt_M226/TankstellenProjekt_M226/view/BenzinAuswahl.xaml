@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="BenzinAuswahl" Height="450" Width="800">
     <Grid>
         <Image HorizontalAlignment="Left" Height="303" VerticalAlignment="Top" Width="546" Margin="223,34,0,0" Source="../Images/BenzinAuswahl.jpg"/>
         <Button Content="Superplus" HorizontalAlignment="Left" Height="18" Margin="292,354,0,0" VerticalAlignment="Top" Width="67" Click="BtnSPlus_Click"/>

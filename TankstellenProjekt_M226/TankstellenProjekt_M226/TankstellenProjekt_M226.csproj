@@ -59,7 +59,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="view\MainWindow.xaml">
+    <Page Include="view\BenzinAuswahl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -72,8 +72,8 @@
     <Compile Include="view\Kasse.xaml.cs">
       <DependentUpon>Kasse.xaml</DependentUpon>
     </Compile>
-    <Compile Include="view\MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="view\BenzinAuswahl.xaml.cs">
+      <DependentUpon>BenzinAuswahl.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

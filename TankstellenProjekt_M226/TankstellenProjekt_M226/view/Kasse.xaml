@@ -4,13 +4,31 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="Kasse" Height="450" Width="800">
+        Title="Kasse" Height="450" Width="464.849">
     <Grid>
-        <Label Content="Label" HorizontalAlignment="Left" Height="29" Margin="171,80,0,0" VerticalAlignment="Top" Width="94"/>
-        <Label Content="Label" HorizontalAlignment="Left" Height="29" Margin="171,216,0,0" VerticalAlignment="Top" Width="94"/>
-        <Label Content="Label" HorizontalAlignment="Left" Height="29" Margin="171,182,0,0" VerticalAlignment="Top" Width="94"/>
-        <Label Content="Label" HorizontalAlignment="Left" Height="29" Margin="171,148,0,0" VerticalAlignment="Top" Width="94"/>
-        <Label Content="Label" HorizontalAlignment="Left" Height="29" Margin="171,114,0,0" VerticalAlignment="Top" Width="94"/>
-
+        <!--#region Kosten Menu-->
+        <Label Content="Kosten" HorizontalAlignment="Left" Height="29" Margin="123,78,0,0" VerticalAlignment="Top" Width="94" />
+        <Label Content="Offener Betrag" HorizontalAlignment="Left" Height="29" Margin="123,107,0,0" VerticalAlignment="Top" Width="94"/>
+        <Label Content="Bezahlt" HorizontalAlignment="Left" Height="29" Margin="123,141,0,0" VerticalAlignment="Top" Width="94" />
+        <Label Content="0.00" HorizontalAlignment="Left" Margin="222,73,0,0" VerticalAlignment="Top"  Width="94" Height="29" Background="#FFF1ECEC" Name="Kosten"/>
+        <Label Content="0.00" HorizontalAlignment="Left" Margin="222,107,0,0" VerticalAlignment="Top" Width="94" Height="29" Background="#FFF1ECEC"  Name="OBetrag"/>
+        <Label Content="0.00" HorizontalAlignment="Left" Margin="222,141,0,0" VerticalAlignment="Top" Width="94" Height="29" Background="#FFF1ECEC" Name="Bezahlt"/>
+        <!--#endregion-->
+        
+        <!--#region Geldauswahl-->
+        <Label Content="Münzen" HorizontalAlignment="Left" Height="29" Margin="289,224,0,0" VerticalAlignment="Top" Width="94"/>
+        <Label Content="Noten " HorizontalAlignment="Left" Height="29" Margin="43,224,0,0" VerticalAlignment="Top" Width="94"/>
+        <Button Content="100 CHF" HorizontalAlignment="Left" Margin="43,258,0,0" VerticalAlignment="Top" Width="75" Name="Btn100" Click="Btn100_Click"/>
+        <Button Content="50 CHF" HorizontalAlignment="Left" Margin="123,258,0,0" VerticalAlignment="Top" Width="75" Name="Btn50" Click="Btn50_Click"/>
+        <Button Content="20 CHF" HorizontalAlignment="Left" Margin="43,282,0,0" VerticalAlignment="Top" Width="75" Name="Btn20" Click="Btn20_Click"/>
+        <Button Content="10 CHF" HorizontalAlignment="Left" Margin="123,282,0,0" VerticalAlignment="Top" Width="75" Name="Btn10" Click="Btn10_Click"/>
+        <Button Content="5 CHF" HorizontalAlignment="Left" Margin="241,258,0,0" VerticalAlignment="Top" Width="75" Name="Btn5" Click="Btn5_Click"/>
+        <Button Content="2 CHF" HorizontalAlignment="Left" Margin="321,258,0,0" VerticalAlignment="Top" Width="75" Name="Btn2" Click="Btn2_Click"/>
+        <Button Content="1 CHF" HorizontalAlignment="Left" Margin="241,282,0,0" VerticalAlignment="Top" Width="75" Name="Btn1" Click="Btn1_Click"/>
+        <Button Content="0.50 CHF" HorizontalAlignment="Left" Margin="321,282,0,0" VerticalAlignment="Top" Width="75" Name="Btn05" Click="Btn05_Click"/>
+        <Button Content="0.20 CHF" HorizontalAlignment="Left" Margin="241,306,0,0" VerticalAlignment="Top" Width="75" Name="Btn02" Click="Btn02_Click"/>
+        <Button Content="0.10 CHF" HorizontalAlignment="Left" Margin="321,306,0,0" VerticalAlignment="Top" Width="75" Name="Btn01" Click="Btn01_Click"/>
+        <Button Content="0.05 CHF" HorizontalAlignment="Left" Margin="241,330,0,0" VerticalAlignment="Top" Width="75" Name="Btn005" Click="Btn005_Click"/>
+        <!--#endregion-->    
     </Grid>
 </Window>
