@@ -61,7 +61,7 @@ namespace TankstellenProjekt_M226.view
             {
                 if (missing>=100)
                 {
-                    missing=missing - 100;
+                    missing=- 100;
                     amountof100 =+1;
                 }
                 else
