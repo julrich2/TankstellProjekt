@@ -22,18 +22,131 @@ namespace TankstellenProjekt_M226.view
         public Kasse()
         {
             InitializeComponent();
+            AddMoney(0);
         }
 
         void AddMoney(double Money)
         {
-            double paid;
             string result="0";
-            paid=Convert.ToDouble(Bezahlt.Content); 
-            paid=paid+Money;
+            double paid=Convert.ToDouble(Bezahlt.Content);
+            double cost = Convert.ToDouble(Kosten.Content);
+            double missing = Convert.ToDouble(OBetrag.Content);
+            paid =paid+Money;
             paid = Math.Round(paid, 2);
-            
             Bezahlt.Content = Convert.ToString(paid) ;
+            missing = cost - paid;
+            OBetrag.Content = Convert.ToString(missing);
+            if (Convert.ToDouble(missing) < 0)
+            {
+                missing = Math.Round(missing, 2);
+                Rückgeld(missing);
+            }
+        }
             
+        void Rückgeld(double missing)
+        {
+            int amountof100 =0;
+            int amountof50 = 0;
+            int amountof20 = 0;
+            int amountof10 = 0;
+            int amountof5 = 0;
+            int amountof2 = 0;
+            int amountof1 = 0;
+            int amountof05 = 0;
+            int amountof02 = 0;
+            int amountof01 = 0;
+            int amountof005 = 0;
+            missing =missing * (-1);
+            do
+            {
+                if (missing>100)
+                {
+                    missing=missing - 100;
+                    amountof100 =+1;
+                }
+                else
+                {
+                    if (missing>50)
+                    {
+                        missing = missing - 50;
+                        amountof50 = +1;
+                    }
+                    else
+                    {
+                        if (missing > 20)
+                        {
+                            missing = missing - 20;
+                            amountof20 = +1;
+                        }
+                        else
+                        {
+                            if (missing > 10)
+                            {
+                                missing = missing - 10;
+                                amountof10 = +1;
+                            }
+                            else
+                            {
+                                if (missing > 5)
+                                {
+                                    missing = missing - 5;
+                                    amountof5 = +1;
+                                }
+                                else
+                                {
+                                    if (missing >2)
+                                    {
+                                        missing = missing - 2;
+                                        amountof2 = +1;
+                                    }
+                                    else
+                                    {
+                                        if (missing > 1)
+                                        {
+                                            missing = missing - 1;
+                                            amountof1 = +1;
+                                        }
+                                        else
+                                        {
+
+                                            if (missing > 0.5)
+                                            {
+                                                missing = missing - 0.5;
+                                                amountof05 = +1;
+                                            }
+                                            else
+                                            {
+                                                if (missing > 0.2)
+                                                {
+                                                    missing = missing - 0.2;
+                                                    amountof02 = +1;
+                                                }
+                                                else
+                                                {
+                                                    if (missing > 0.1)
+                                                    {
+                                                        missing = missing - 0.1;
+                                                        amountof01 = +1;
+                                                    }
+                                                    else
+                                                    {
+                                                        if (missing > 0.05)
+                                                        {
+                                                            missing = missing - 0.05;
+                                                            amountof005 = +1;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            while (missing >= 0);
         }
 
         private void Btn100_Click(object sender, RoutedEventArgs e)

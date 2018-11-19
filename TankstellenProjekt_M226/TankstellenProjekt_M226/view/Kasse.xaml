@@ -10,9 +10,9 @@
         <Label Content="Kosten" HorizontalAlignment="Left" Height="29" Margin="123,78,0,0" VerticalAlignment="Top" Width="94" />
         <Label Content="Offener Betrag" HorizontalAlignment="Left" Height="29" Margin="123,107,0,0" VerticalAlignment="Top" Width="94"/>
         <Label Content="Bezahlt" HorizontalAlignment="Left" Height="29" Margin="123,141,0,0" VerticalAlignment="Top" Width="94" />
-        <Label Content="0.00" HorizontalAlignment="Left" Margin="222,73,0,0" VerticalAlignment="Top"  Width="94" Height="29" Background="#FFF1ECEC" Name="Kosten"/>
-        <Label Content="0.00" HorizontalAlignment="Left" Margin="222,107,0,0" VerticalAlignment="Top" Width="94" Height="29" Background="#FFF1ECEC"  Name="OBetrag"/>
-        <Label Content="0.00" HorizontalAlignment="Left" Margin="222,141,0,0" VerticalAlignment="Top" Width="94" Height="29" Background="#FFF1ECEC" Name="Bezahlt"/>
+        <Label Content="300," HorizontalAlignment="Left" Margin="222,73,0,0" VerticalAlignment="Top"  Width="94" Height="29" Background="#FFF1ECEC" Name="Kosten"/>
+        <Label Content= "0," HorizontalAlignment="Left" Margin="222,107,0,0" VerticalAlignment="Top" Width="94" Height="29" Background="#FFF1ECEC"  Name="OBetrag"/>
+        <Label Content= "0," HorizontalAlignment="Left" Margin="222,141,0,0" VerticalAlignment="Top" Width="94" Height="29" Background="#FFF1ECEC" Name="Bezahlt"/>
         <!--#endregion-->
         
         <!--#region Geldauswahl-->
