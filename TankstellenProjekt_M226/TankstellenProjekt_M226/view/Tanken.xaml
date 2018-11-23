@@ -1,0 +1,12 @@
+﻿<Window x:Class="TankstellenProjekt_M226.view.Tanken"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TankstellenProjekt_M226.view"
+        mc:Ignorable="d"
+        Title="Tanken" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Label Name="Timerlabel" Margin="58,52,465.6,307"/>
+    </Grid>
+</Window>

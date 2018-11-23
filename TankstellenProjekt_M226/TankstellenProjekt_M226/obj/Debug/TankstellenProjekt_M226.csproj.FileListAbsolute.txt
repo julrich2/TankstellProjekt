@@ -9,8 +9,11 @@ C:\Users\Jeremy Ulrich\Documents\GitHub\TankstellProjekt\TankstellenProjekt_M226
 C:\Users\Jeremy Ulrich\Documents\GitHub\TankstellProjekt\TankstellenProjekt_M226\TankstellenProjekt_M226\obj\Debug\TankstellenProjekt_M226.csproj.CoreCompileInputs.cache
 C:\Users\Jeremy Ulrich\Documents\GitHub\TankstellProjekt\TankstellenProjekt_M226\TankstellenProjekt_M226\obj\Debug\TankstellenProjekt_M226.exe
 C:\Users\Jeremy Ulrich\Documents\GitHub\TankstellProjekt\TankstellenProjekt_M226\TankstellenProjekt_M226\obj\Debug\TankstellenProjekt_M226.pdb
-C:\Users\Jeremy Ulrich\Documents\GitHub\TankstellProjekt\TankstellenProjekt_M226\TankstellenProjekt_M226\obj\Debug\TankstellenProjekt_M226.csprojAssemblyReference.cache
 C:\Users\Jeremy Ulrich\Documents\GitHub\TankstellProjekt\TankstellenProjekt_M226\TankstellenProjekt_M226\obj\Debug\view\Kasse.baml
 C:\Users\Jeremy Ulrich\Documents\GitHub\TankstellProjekt\TankstellenProjekt_M226\TankstellenProjekt_M226\obj\Debug\view\Kasse.g.cs
 C:\Users\Jeremy Ulrich\Documents\GitHub\TankstellProjekt\TankstellenProjekt_M226\TankstellenProjekt_M226\obj\Debug\view\BenzinAuswahl.baml
 C:\Users\Jeremy Ulrich\Documents\GitHub\TankstellProjekt\TankstellenProjekt_M226\TankstellenProjekt_M226\obj\Debug\view\BenzinAuswahl.g.cs
+C:\Users\Jeremy Ulrich\Documents\GitHub\TankstellProjekt\TankstellenProjekt_M226\TankstellenProjekt_M226\obj\Debug\TankstellenProjekt_M226.csprojAssemblyReference.cache
+C:\Users\Jeremy Ulrich\Documents\GitHub\TankstellProjekt\TankstellenProjekt_M226\TankstellenProjekt_M226\obj\Debug\view\Tanken.g.cs
+C:\Users\Jeremy Ulrich\Documents\GitHub\TankstellProjekt\TankstellenProjekt_M226\TankstellenProjekt_M226\obj\Debug\TankstellenProjekt_M226_MarkupCompile.lref
+C:\Users\Jeremy Ulrich\Documents\GitHub\TankstellProjekt\TankstellenProjekt_M226\TankstellenProjekt_M226\obj\Debug\view\Tanken.baml

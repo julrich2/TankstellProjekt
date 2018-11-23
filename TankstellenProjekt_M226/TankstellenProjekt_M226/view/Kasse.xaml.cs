@@ -68,42 +68,42 @@ namespace TankstellenProjekt_M226.view
                 {
                     if (missing>=50)
                     {
-                        missing = missing - 50;
+                        missing=- 50;
                         amountof50 = +1;
                     }
                     else
                     {
                         if (missing >= 20)
                         {
-                            missing = missing - 20;
+                            missing =- 20;
                             amountof20 = +1;
                         }
                         else
                         {
                             if (missing >= 10)
                             {
-                                missing = missing - 10;
+                                missing =- 10;
                                 amountof10 = +1;
                             }
                             else
                             {
                                 if (missing >= 5)
                                 {
-                                    missing = missing - 5;
+                                    missing =- 5;
                                     amountof5 = +1;
                                 }
                                 else
                                 {
                                     if (missing >=2)
                                     {
-                                        missing = missing - 2;
+                                        missing =- 2;
                                         amountof2 = +1;
                                     }
                                     else
                                     {
                                         if (missing >= 1)
                                         {
-                                            missing = missing - 1;
+                                            missing =- 1;
                                             amountof1 = +1;
                                         }
                                         else
@@ -111,28 +111,28 @@ namespace TankstellenProjekt_M226.view
 
                                             if (missing >= 0.5)
                                             {
-                                                missing = missing - 0.5;
+                                                missing =- 0.5;
                                                 amountof05 = +1;
                                             }
                                             else
                                             {
                                                 if (missing >= 0.2)
                                                 {
-                                                    missing = missing - 0.2;
+                                                    missing =- 0.2;
                                                     amountof02 = +1;
                                                 }
                                                 else
                                                 {
                                                     if (missing >= 0.1)
                                                     {
-                                                        missing = missing - 0.1;
+                                                        missing =- 0.1;
                                                         amountof01 = +1;
                                                     }
                                                     else
                                                     {
                                                         if (missing >= 0.05)
                                                         {
-                                                            missing = missing - 0.05;
+                                                            missing =- 0.05;
                                                             amountof005 = +1;
                                                         }
                                                     }
